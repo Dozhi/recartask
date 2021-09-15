@@ -13,7 +13,7 @@ to start server
 ```sh
 python3 server.py
 ```
-to start client
+to start gui_client
 ```sh
 python3 client.py
 ```
@@ -26,3 +26,4 @@ I spent about 3-4 hours.
 Managed implement so-so "user typing" logic. It works, but not so well. I would like to implement better one, where "typing" is not constantly streamable.
 Didn't manage fully implement sent/delivered/seen. Couldn't find a way to build "seen" logic with tkinter.
 Code smells. Will change that on my time.
+Will add unit_test for my own sake.
